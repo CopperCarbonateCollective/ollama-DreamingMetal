@@ -1,25 +1,16 @@
 # Security
 
-The Ollama maintainer team takes security seriously and will actively work to resolve security issues.
+What we're trying to do here may inherently make some aspects of the original project slightly less secure, especially if you're scared your language model may have it out for you, or they're conspiring behind your back.
+That said, there are alwaays unintentional bugs or oversights that may need to be addressed.
 
 ## Reporting a vulnerability
 
-If you discover a security vulnerability, please do not open a public issue. Instead, please report it by emailing hello@ollama.com. We ask that you give us sufficient time to investigate and address the vulnerability before disclosing it publicly.
+If you discover a security vulnerability, you can email CuCO2Collective@gmail.com, or post in the discussion as any other bug
 
-Please include the following details in your report:
+Besides the normal things everyone wants:
 - A description of the vulnerability
 - Steps to reproduce the issue
 - Your assessment of the potential impact
 - Any possible mitigations
+We'd also want to check if the bug exists in the original application, or if it's verified to be a change we made. Within reason--we know not everyone is a code-monkey and could figure out what code is the root cause.
 
-## Security best practices
-
-While the maintainer team does their best to secure Ollama, users are encouraged to implement their own security best practices, such as:
-
-- Regularly updating to the latest version of Ollama
-- Securing access to hosted instances of Ollama
-- Monitoring systems for unusual activity
-
-## Contact
-
-For any other questions or concerns related to security, please contact us at hello@ollama.com
