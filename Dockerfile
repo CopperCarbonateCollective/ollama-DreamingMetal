@@ -125,7 +125,7 @@ RUN --mount=type=cache,target=/root/.ccache \
 
 
 FROM base AS build
-WORKDIR /go/src/github.com/ollama/ollama
+WORKDIR /go/src/github.com/CopperCarbonateCollective/ollama-DreamingMetal
 COPY go.mod go.sum .
 RUN curl -fsSL https://golang.org/dl/go$(awk '/^go/ { print $2 }' go.mod).linux-$(case $(uname -m) in x86_64) echo amd64 ;; aarch64) echo arm64 ;; esac).tar.gz | tar xz -C /usr/local
 ENV PATH=/usr/local/go/bin:$PATH

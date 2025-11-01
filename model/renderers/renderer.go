@@ -3,7 +3,7 @@ package renderers
 import (
 	"fmt"
 
-	"github.com/ollama/ollama/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
 )
 
 type Renderer interface {

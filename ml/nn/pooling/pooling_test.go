@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
+	fsggml "github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/backend/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn/pooling"
 	"github.com/google/go-cmp/cmp"
-	fsggml "github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/backend/ggml"
-	"github.com/ollama/ollama/ml/nn/pooling"
 )
 
 func setup(tb testing.TB, n int) ml.Backend {

@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ollama/ollama/format"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/format"
 )
 
 func GetCPUMem() (memInfo, error) {

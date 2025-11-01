@@ -13,8 +13,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/logutil"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/logutil"
 )
 
 type qwenParserState int

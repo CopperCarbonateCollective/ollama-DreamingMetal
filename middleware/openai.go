@@ -11,8 +11,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/openai"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/openai"
 )
 
 type BaseWriter struct {

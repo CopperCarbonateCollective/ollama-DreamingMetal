@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/types/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/types/model"
 )
 
 func TestDelete(t *testing.T) {

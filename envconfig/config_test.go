@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/logutil"
 	"github.com/google/go-cmp/cmp"
-	"github.com/ollama/ollama/logutil"
 )
 
 func TestHost(t *testing.T) {

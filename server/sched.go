@@ -12,15 +12,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/discover"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/types/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/discover"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/envconfig"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/format"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/llm"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/logutil"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/types/model"
 )
 
 type LlmRequest struct {
@@ -391,7 +391,7 @@ func (s *Scheduler) load(req *LlmRequest, f *ggml.GGML, systemInfo ml.SystemInfo
 	}
 
 	// `mllama`, `qwen3vl`, and `qwen3vlmoe` are snowflakes and uses an encoder cache which cannot be used with num_parallel > 1
-	// ref: https://github.com/ollama/ollama/issues/4165
+	// ref: https://github.com/CopperCarbonateCollective/ollama-DreamingMetal/issues/4165
 	if slices.Contains([]string{"mllama", "qwen3vl", "qwen3vlmoe"}, req.model.Config.ModelFamily) && numParallel != 1 {
 		numParallel = 1
 		slog.Warn("model architecture does not currently support parallel requests", "architecture", req.model.Config.ModelFamily)

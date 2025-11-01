@@ -1,6 +1,6 @@
 package input
 
-import "github.com/ollama/ollama/ml"
+import "github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
 
 // Multimodal is a multimodal embedding or a component of one.
 // For example, it could be a row of an image that can be processed

@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
 )
 
 type qwen25VLModel struct {

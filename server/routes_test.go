@@ -22,14 +22,14 @@ import (
 	"testing"
 	"unicode"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/openai"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/server/internal/client/ollama"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/types/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/version"
 	"github.com/gin-gonic/gin"
 	"github.com/google/go-cmp/cmp"
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/openai"
-	"github.com/ollama/ollama/server/internal/client/ollama"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
 )
 
 func createTestFile(t *testing.T, name string) (string, string) {

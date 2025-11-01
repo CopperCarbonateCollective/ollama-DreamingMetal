@@ -16,11 +16,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/envconfig"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/format"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/llm"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/logutil"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
 )
 
 var (

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/logutil"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/format"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/logutil"
 )
 
 // GPULayers is a set of layers to be allocated on a single GPU

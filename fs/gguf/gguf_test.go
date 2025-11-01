@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/gguf"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/fs/gguf"
 )
 
 func createBinFile(tb testing.TB) string {

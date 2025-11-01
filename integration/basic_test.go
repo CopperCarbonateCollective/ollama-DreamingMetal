@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
 )
 
 func TestBlueSky(t *testing.T) {

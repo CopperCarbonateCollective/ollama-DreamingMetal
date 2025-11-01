@@ -7,7 +7,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ollama/ollama/llama"
+	// fixed import: use the actual repo owner/path on disk
+	"llama"
 )
 
 type InputCache struct {

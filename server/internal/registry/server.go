@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ollama/ollama/server/internal/cache/blob"
-	"github.com/ollama/ollama/server/internal/client/ollama"
-	"github.com/ollama/ollama/server/internal/internal/backoff"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/server/internal/cache/blob"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/server/internal/client/ollama"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/server/internal/internal/backoff"
 )
 
 // Local implements an http.Handler for handling local Ollama API model

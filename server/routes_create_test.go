@@ -21,10 +21,10 @@ import (
 	gocmp "github.com/google/go-cmp/cmp"
 	gocmpopts "github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/types/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/envconfig"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/types/model"
 )
 
 var stream bool = false

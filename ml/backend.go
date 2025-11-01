@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/fs"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs"
 )
 
 type Backend interface {

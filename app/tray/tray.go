@@ -1,11 +1,10 @@
 package tray
 
 import (
+	"app/assets"
+	"app/tray/commontray"
 	"fmt"
 	"runtime"
-
-	"github.com/ollama/ollama/app/assets"
-	"github.com/ollama/ollama/app/tray/commontray"
 )
 
 func NewTray() (commontray.OllamaTray, error) {

@@ -9,9 +9,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/ollama/ollama/app/store"
-	"github.com/ollama/ollama/app/tray"
-	"github.com/ollama/ollama/envconfig"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/app/store"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/app/tray"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/envconfig"
 )
 
 func Run() {

@@ -1,3 +1,5 @@
+//go:build cgo
+
 package ggml
 
 // #cgo CXXFLAGS: -std=c++17
@@ -36,7 +38,7 @@ import (
 	"sync"
 	"unsafe"
 
-	_ "github.com/ollama/ollama/ml/backend/ggml/ggml/src/ggml-cpu"
+	_ "github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/backend/ggml/ggml/src/ggml-cpu"
 )
 
 func init() {

@@ -22,14 +22,14 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/convert"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/template"
-	"github.com/ollama/ollama/types/errtypes"
-	"github.com/ollama/ollama/types/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/convert"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/envconfig"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/format"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/template"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/types/errtypes"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/types/model"
 )
 
 var (

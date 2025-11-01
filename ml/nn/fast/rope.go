@@ -2,8 +2,8 @@
 package fast
 
 import (
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn/rope"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn/rope"
 )
 
 // fastRoPE is an interface for tensors that support fast rotary positional embedding.

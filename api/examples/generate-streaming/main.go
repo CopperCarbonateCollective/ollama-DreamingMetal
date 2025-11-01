@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ollama/ollama/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
 )
 
 func main() {

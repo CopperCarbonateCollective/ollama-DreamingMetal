@@ -4,9 +4,9 @@ import (
 	"math"
 	"slices"
 
-	"github.com/ollama/ollama/fs"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn"
 )
 
 // We only support batch size of 1

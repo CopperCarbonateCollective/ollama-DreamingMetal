@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/ollama/ollama/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
 )
 
 func marshalWithSpaces(v any) ([]byte, error) {

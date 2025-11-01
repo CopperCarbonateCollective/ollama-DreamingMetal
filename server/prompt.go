@@ -9,10 +9,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/model/renderers"
-	"github.com/ollama/ollama/template"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/llm"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/model/renderers"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/template"
 )
 
 type tokenizeFunc func(context.Context, string) ([]int, error)

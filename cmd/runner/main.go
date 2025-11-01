@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ollama/ollama/runner"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/runner"
 )
 
 func main() {

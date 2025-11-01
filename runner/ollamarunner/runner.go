@@ -26,19 +26,19 @@ import (
 	"golang.org/x/image/bmp"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn/pooling"
-	"github.com/ollama/ollama/model"
-	"github.com/ollama/ollama/model/input"
-	"github.com/ollama/ollama/runner/common"
-	"github.com/ollama/ollama/sample"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/envconfig"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/llm"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/logutil"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn/pooling"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/model/input"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/runner/common"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/sample"
 
-	_ "github.com/ollama/ollama/model/models"
+	_ "github.com/CopperCarbonateCollective/ollama-DreamingMetal/model/models"
 )
 
 type Sequence struct {

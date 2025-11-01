@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/llm"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
 	"github.com/gin-gonic/gin"
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/ml"
 )
 
 func getTestTools() []api.Tool {

@@ -1,6 +1,6 @@
 package convert
 
-import "github.com/ollama/ollama/fs/ggml"
+import "github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
 
 type qwen2Model struct {
 	ModelParameters

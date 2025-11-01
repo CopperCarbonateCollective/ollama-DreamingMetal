@@ -3,8 +3,8 @@ package renderers
 import (
 	"testing"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
 	"github.com/google/go-cmp/cmp"
-	"github.com/ollama/ollama/api"
 )
 
 func TestQwen3VLThinkingRenderer(t *testing.T) {
@@ -115,7 +115,7 @@ Speak poetry after the first sentence.</think><think>Speak poetry after the seco
 		// `,
 		// 		},
 
-		// NOTE: solved with #12518: https://github.com/ollama/ollama/compare/main...drifkin/stable-tool-args
+		// NOTE: solved with #12518: https://github.com/CopperCarbonateCollective/ollama-DreamingMetal/compare/main...drifkin/stable-tool-args
 		// 		{
 		// 			name: "with tools and response",
 		// 			msgs: []api.Message{
@@ -197,7 +197,7 @@ Speak poetry after the first sentence.</think><think>Speak poetry after the seco
 		// `,
 		// 		},
 
-		// NOTE: solved with #12518: https://github.com/ollama/ollama/compare/main...drifkin/stable-tool-args
+		// NOTE: solved with #12518: https://github.com/CopperCarbonateCollective/ollama-DreamingMetal/compare/main...drifkin/stable-tool-args
 		// 		{
 		// 			name: "With tools and response, multiple tool calls",
 		// 			msgs: []api.Message{

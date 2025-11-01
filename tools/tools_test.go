@@ -5,8 +5,8 @@ import (
 	"testing"
 	"text/template"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
 	"github.com/google/go-cmp/cmp"
-	"github.com/ollama/ollama/api"
 )
 
 func TestParser(t *testing.T) {

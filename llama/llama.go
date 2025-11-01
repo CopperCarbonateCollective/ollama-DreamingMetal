@@ -30,7 +30,11 @@ import (
 	_ "embed"
 	"errors"
 	"fmt"
+	_ "llama/llama.cpp/common"
+	_ "llama/llama.cpp/src"
+	_ "llama/llama.cpp/tools/mtmd"
 	"log/slog"
+	"ml"
 	"os"
 	"runtime"
 	"runtime/cgo"
@@ -39,11 +43,7 @@ import (
 	"sync"
 	"unsafe"
 
-	_ "github.com/ollama/ollama/llama/llama.cpp/common"
-	_ "github.com/ollama/ollama/llama/llama.cpp/src"
-	_ "github.com/ollama/ollama/llama/llama.cpp/tools/mtmd"
-	"github.com/ollama/ollama/ml"
-	ggml "github.com/ollama/ollama/ml/backend/ggml/ggml/src"
+	ggml "github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/backend/ggml/ggml/src"
 )
 
 func init() {

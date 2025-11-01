@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/openai"
 	"github.com/gin-gonic/gin"
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/openai"
 )
 
 func TestEmbeddingsMiddleware_EncodingFormats(t *testing.T) {

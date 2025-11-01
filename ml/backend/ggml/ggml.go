@@ -29,13 +29,13 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/fs"
-	fsggml "github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	ggml "github.com/ollama/ollama/ml/backend/ggml/ggml/src"
-	"github.com/ollama/ollama/ml/nn/rope"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/format"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs"
+	fsggml "github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/logutil"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	ggml "github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/backend/ggml/ggml/src"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn/rope"
 	"golang.org/x/sync/errgroup"
 )
 

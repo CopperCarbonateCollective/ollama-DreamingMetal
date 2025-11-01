@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/ollama/ollama/app/tray/commontray"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/app/tray/commontray"
 )
 
 // Helpful sources: https://github.com/golang/exp/blob/master/shiny/driver/internal/win32

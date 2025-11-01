@@ -1,6 +1,6 @@
 package nn
 
-import "github.com/ollama/ollama/ml"
+import "github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
 
 type Conv2D struct {
 	Weight ml.Tensor `gguf:"weight"`

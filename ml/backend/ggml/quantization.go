@@ -1,3 +1,6 @@
+//go:build cgo
+// +build cgo
+
 package ggml
 
 // #cgo CPPFLAGS: -I${SRCDIR}/ggml/src
@@ -12,7 +15,7 @@ import "C"
 import (
 	"unsafe"
 
-	fsggml "github.com/ollama/ollama/fs/ggml"
+	fsggml "github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
 )
 
 // ConvertToF32 converts (dequantizes) the raw data to F32 so we can then quantize it

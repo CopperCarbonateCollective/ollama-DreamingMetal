@@ -199,7 +199,7 @@ function buildVulkan(){
 function buildOllama() {
     mkdir -Force -path "${script:DIST_DIR}\"
     write-host "Building ollama CLI"
-    & go build -trimpath -ldflags "-s -w -X=github.com/ollama/ollama/version.Version=$script:VERSION -X=github.com/ollama/ollama/server.mode=release" .
+    & go build -trimpath -ldflags "-s -w -X=github.com/CopperCarbonateCollective/ollama-DreamingMetal/version.Version=$script:VERSION -X=github.com/CopperCarbonateCollective/ollama-DreamingMetal/server.mode=release" .
     if ($LASTEXITCODE -ne 0) { exit($LASTEXITCODE)}
     cp .\ollama.exe "${script:DIST_DIR}\"
 }
@@ -208,7 +208,7 @@ function buildApp() {
     write-host "Building Ollama App"
     cd "${script:SRC_DIR}\app"
     & windres -l 0 -o ollama.syso ollama.rc
-    & go build -trimpath -ldflags "-s -w -H windowsgui -X=github.com/ollama/ollama/version.Version=$script:VERSION -X=github.com/ollama/ollama/server.mode=release" -o "${script:SRC_DIR}\dist\windows-${script:TARGET_ARCH}-app.exe" .
+    & go build -trimpath -ldflags "-s -w -H windowsgui -X=github.com/CopperCarbonateCollective/ollama-DreamingMetal/version.Version=$script:VERSION -X=github.com/CopperCarbonateCollective/ollama-DreamingMetal/server.mode=release" -o "${script:SRC_DIR}\dist\windows-${script:TARGET_ARCH}-app.exe" .
     if ($LASTEXITCODE -ne 0) { exit($LASTEXITCODE)}
 }
 

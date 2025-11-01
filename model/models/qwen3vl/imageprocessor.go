@@ -5,9 +5,9 @@ import (
 	"image"
 	"math"
 
-	"github.com/ollama/ollama/fs"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/model/imageproc"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/model/imageproc"
 )
 
 // ImageProcessor contains configuration for the Qwen 3 VL image processing

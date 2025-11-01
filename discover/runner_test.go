@@ -3,7 +3,7 @@ package discover
 import (
 	"testing"
 
-	"github.com/ollama/ollama/app/lifecycle"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/app/lifecycle"
 )
 
 func init() {

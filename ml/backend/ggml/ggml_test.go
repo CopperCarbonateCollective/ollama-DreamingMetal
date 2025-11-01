@@ -1,3 +1,5 @@
+//go:build cgo
+
 package ggml
 
 import (
@@ -5,9 +7,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/ggml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
 	"github.com/google/go-cmp/cmp"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/ml"
 )
 
 func setup(tb testing.TB) ml.Context {

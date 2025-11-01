@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/auth"
-	"github.com/ollama/ollama/version"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/auth"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/version"
 )
 
 var (

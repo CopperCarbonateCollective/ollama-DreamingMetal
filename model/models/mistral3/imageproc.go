@@ -6,8 +6,8 @@ import (
 	_ "image/png"
 	"math"
 
-	"github.com/ollama/ollama/fs"
-	"github.com/ollama/ollama/model/imageproc"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/model/imageproc"
 )
 
 type ImageProcessor struct {

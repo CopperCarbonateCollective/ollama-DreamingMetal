@@ -21,15 +21,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/fs/gguf"
-	"github.com/ollama/ollama/model/parsers"
-	"github.com/ollama/ollama/parser"
-	"github.com/ollama/ollama/template"
-	"github.com/ollama/ollama/thinking"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/api"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/envconfig"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs/gguf"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/model/parsers"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/parser"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/template"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/thinking"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/types/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/version"
 )
 
 var (

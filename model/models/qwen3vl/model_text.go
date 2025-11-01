@@ -6,13 +6,13 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/fs"
-	"github.com/ollama/ollama/kvcache"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn"
-	"github.com/ollama/ollama/ml/nn/fast"
-	"github.com/ollama/ollama/ml/nn/rope"
-	"github.com/ollama/ollama/model"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/fs"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/kvcache"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn/fast"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/ml/nn/rope"
+	"github.com/CopperCarbonateCollective/ollama-DreamingMetal/model"
 )
 
 type TextOptions struct {
